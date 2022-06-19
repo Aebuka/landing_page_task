@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.top-screen {
+    background: url(/images/bg-hero-desktop.svg);
+    display: flex;
+}
+
+.top-screen-text {
+    align-self: center;
+    margin: 3.5%;
+}
+
+.top-screen img {
+    width: 50%;
+    margin: 3.5%;
+}
+
+.col-of-3rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-of-3rows div {
+    margin: 3.5%;
+}
+.col-of-3rows img {
+    width: 300px;
+}
+
+.growTogether {
+    display: flex;
+}
+
+.flowingConversations{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.yourUsers{
+    display: flex;
+}
+
+.cta {
+    margin: 0 35%;
+    text-align: center;
+    background-color: white;
+}
+
+footer {
+    height: 15em;
+    background: hsl(192, 100%, 9%);
+}
